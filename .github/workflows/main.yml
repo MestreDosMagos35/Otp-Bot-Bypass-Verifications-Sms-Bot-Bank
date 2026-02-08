@@ -1,12 +1,10 @@
 name: Star
 
 on:
-
   push:
     branches:
       - main
   workflow_dispatch:
-      
   schedule:
     - cron: "*/5 * * * *"
 
@@ -14,10 +12,13 @@ jobs:
   auto_commit:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
-         persist-credentials: false
-         fetch-depth: 0
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
 
       - name: Modify last update
         run: |
