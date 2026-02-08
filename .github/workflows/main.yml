@@ -5,9 +5,10 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
       
   schedule:
-  - cron: "* * * * *"
+    - cron: "*/5 * * * *"
 
 jobs:
   auto_commit:
