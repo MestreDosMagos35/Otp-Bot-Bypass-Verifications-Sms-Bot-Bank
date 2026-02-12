@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OTP-Bot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+339fb5ac5f6a5d5e3c8cddbe8b4531ee5d2c13b3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f89e41cab9f16899e08b4e018716600b8509786")]
 [assembly: System.Reflection.AssemblyProductAttribute("OTP-Bot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OTP-Bot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
